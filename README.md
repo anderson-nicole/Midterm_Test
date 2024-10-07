@@ -1,4 +1,4 @@
-# Midterm_Test
+# Visual Analytics Midterm Project
 ## This repo is about the Tableau Workbook for Fall '24 Visual Analytics Course
 
 ### Introduction
