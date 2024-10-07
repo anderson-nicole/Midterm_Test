@@ -1,8 +1,17 @@
 # Midterm_Test
-This repo is about the Tableau Workbook for Fall '24 Visual Analytics Course
+## This repo is about the Tableau Workbook for Fall '24 Visual Analytics Course
 
-Link to Project Workbook: 
+### Introduction
 
-Project Data: 
+
+### Data: 
+
+
+### Future Work: 
+
+
+[Link to Project Workbook]()
+
+[Project Data: Project GENIE-BPC]()
 
 
