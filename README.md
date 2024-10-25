@@ -6,12 +6,11 @@
 
 
 ### Data:
-- Due to the sensitive nature of EHR's, synthetic data created through [Synthea](https://synthetichealth.github.io/synthea/) was utilized. mCODE released data created using Synthea to produce 10 year EHR records for oncology paitents. Only a single record was used from the download due to me still being new to the world of HIT and Interoperability making working with FHIR JSON bundles being a little hard to understand parsing wise to flatten it into a familiar format of CSV and tableau struggled as well to interpret them. To overcome this issue, a Python Library 
+- Due to the sensitive nature of EHR's, synthetic data created through [Synthea](https://synthetichealth.github.io/synthea/) was utilized. [mCODE released data](https://confluence.hl7.org/display/COD/mCODE+Test+Data) created using Synthea to produce 10 year EHR records for oncology paitents. Only a single record was used from the download due to me still being new to the world of HIT and Interoperability making working with FHIR JSON bundles being a little hard to understand parsing wise to flatten it into a familiar format of CSV and tableau struggled as well to interpret them. To overcome this issue, a Python Library [Fhiry](https://github.com/dermatologist/fhiry?tab=readme-ov-file) was used to read in and convert the data into a Pandas dataframe that I could then export as a CSV. 
 
 ### Future Work: 
-- As I gain more experiance working with FHIR bundles, working to integrate the ability to view more paitents at once to get either a full view of what a hospitals floor demographics and health look like or so a nurse can get a view of more of their patients easily.
+- As I gain more experiance working with FHIR bundles and play around with other FHIR parsers, I would like to integrate the ability to view more paitents at once to get either a full view of what a hospitals floor demographics and health look like or so a nurse can get a view of more of their patients easily.
 - Add colors to values that may be high or low to quickly highlight areas of concern. For example with labs, if the patients have a value of 9 g/dL for their hemoglobin, then highlight the value in red. 
-
 
 [Link to Project Workbook](https://public.tableau.com/app/profile/nicole.anderson8589/viz/MidtermProject_17298390741440/SummaryDash?publish=yes)
 
